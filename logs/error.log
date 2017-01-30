@@ -35,3 +35,11 @@
 2017/01/26 16:25:51 [error] 17244#0: *1 open() "/home/heorhi_vysotski/nginx/html/kl" failed (2: No such file or directory), client: 192.168.122.217, server: 192.168.122.217:8080, request: "GET /kl HTTP/1.1", host: "192.168.122.217:8080"
 2017/01/26 16:26:40 [error] 17315#0: *1 open() "/home/heorhi_vysotski/nginx/html/jkl" failed (2: No such file or directory), client: 192.168.122.217, server: 192.168.122.217:8080, request: "GET /jkl HTTP/1.1", host: "192.168.122.217:8080"
 2017/01/26 16:27:12 [error] 17384#0: *1 open() "/home/heorhi_vysotski/nginx/html/jkl" failed (2: No such file or directory), client: 192.168.122.217, server: 192.168.122.217:8080, request: "GET /jkl HTTP/1.1", host: "192.168.122.217:8080"
+2017/01/27 14:37:05 [error] 10133#0: *2 open() "/home/heorhi_vysotski/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.217:8080, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.217"
+2017/01/27 16:42:40 [emerg] 18250#0: "server" directive is not allowed here in /home/heorhi_vysotski/nginx/conf/nginx.conf:57
+2017/01/27 16:43:58 [emerg] 18308#0: "server" directive is not allowed here in /home/heorhi_vysotski/nginx/conf/nginx.conf:41
+2017/01/27 17:01:42 [error] 18656#0: *4 open() "/home/heorhi_vysotski/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.217, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.217:8443"
+2017/01/27 17:01:42 [error] 18656#0: *4 open() "/home/heorhi_vysotski/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.122.1, server: 192.168.122.217, request: "GET /favicon.ico HTTP/1.1", host: "192.168.122.217:8443"
+2017/01/27 17:31:24 [warn] 20314#0: conflicting server name "192.168.122.217" on 0.0.0.0:8443, ignored
+2017/01/27 17:31:25 [warn] 20373#0: conflicting server name "192.168.122.217" on 0.0.0.0:8443, ignored
+2017/01/27 17:56:19 [error] 21183#0: *1 access forbidden by rule, client: 192.168.122.1, server: 192.168.122.217, request: "GET /status HTTP/1.1", host: "192.168.122.217:8443", referrer: "https://192.168.122.217:8443/"
